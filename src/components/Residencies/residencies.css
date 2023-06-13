@@ -1,0 +1,86 @@
+.residency_wrapper{
+    background-color: #011903;
+}
+.residency-heading{
+    margin-bottom: 2rem;
+}
+.residency-card{
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    transition: all 500ms ease-in;
+    border: 2px solid var(--text-green);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.residency-card:hover{
+    background: var(--green-bg);
+    transition: all 500ms ease-in;
+    box-shadow: 0px 2px 9px 2px rgba(0, 255, 4, 0.21);
+}
+.residency-card>img{
+    width: 100%;
+    max-width: 15rem;
+    height: 10rem;
+    border-radius: 20px;
+}
+.dollarText{
+    font-weight: var(--fw-700);
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--text-green);
+}
+.nameText{
+    font-weight: var(--fw-700);
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: var(--text-white);
+}
+.paraText{
+    font-weight: var(--fw-400);
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    color: var(--text-grey);
+    width: 15rem;
+}
+.r-buttons{
+    gap: 1rem;
+    margin-top: 3rem;
+    bottom: 0;
+}
+.r-buttons button{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: var(--green-bg);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--text-green);
+}
+.r-buttons button:hover{
+    transition: all 500ms ease-in;
+    box-shadow: 0px 2px 9px 2px rgba(0, 255, 4, 0.21);
+}
+
+@media (max-width:991px){
+    .residency_wrapper .flexColStart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .residency_wrapper .primaryText {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .residency_wrapper .greenText {
+        font-size: 23px;
+        line-height: 50px;
+    }
+}

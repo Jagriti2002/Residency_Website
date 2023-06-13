@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Shalimar Villa",
+    "price": "50,300",
+    "detail": "Shalimar Villa Located at Malad West, Mumbai, Maharashtra",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Royal Villa",
+    "price": "80,300",
+    "detail": "Royals Villa Located at Mulund East, Mumbai, Maharashtra",
+    "image": "./r2.jpg"
+  },
+  {
+    "name": "Gazellet Villa",
+    "price": "45,900",
+    "detail": "Gazellet Villa Located at Thane East, Mumbai, Maharashtra",
+    "image": "./r3.jpg"
+  },
+  {
+    "name": "Dream Villa",
+    "price": "75,900",
+    "detail": "Dream Villa Located at Mulund East, Mumbai, Maharashtra",
+    "image": "./r4.jpg"
+  },
+  {
+    "name": "Asheni landmark",
+    "price": "66,353",
+    "detail": "Asheni landmark Located at Thane, Mumbai, Maharashtra",
+    "image": "./r5.jpg"
+  },
+  {
+    "name": "Manthan Palace",
+    "price": "35,853",
+    "detail": "Manthan Palace Located at Malad, Mumbai, Maharashtra",
+    "image": "./r6.jpg"
+  }
+]

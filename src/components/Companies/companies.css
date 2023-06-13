@@ -1,0 +1,23 @@
+.companies_wrapper{
+    background: #18C507;
+}
+.companies-container{
+    justify-content: space-between;
+    gap: 1rem;
+}
+.companies-container>img{
+    width: 9rem;
+    height: 5rem;
+}
+
+
+@media (max-width:450px){
+    .companies-container{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .companies-container>img{
+        width: 8rem;
+        height: 4rem;
+    }
+}
